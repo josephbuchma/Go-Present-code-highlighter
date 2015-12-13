@@ -1,0 +1,30 @@
+{
+  "name": "Go Present code highlighter",
+  "version": "0.1",
+  "description": "Highlights Go code in golang's Present slides.",
+  "icons": { "16": "icons/icon16.png",
+             "48": "icons/icon48.png",
+            "128": "icons/icon128.png" },
+
+  "page_action": {
+    "default_icon":  "icons/icon19.png",
+    "default_title": "Go Present code highlight"
+    //"default_popup": "src/popup.html"
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "background": { "scripts": ["src/background.js"]  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*.slide"],
+      "css": ["lib/hl/styles/solarized-light.css", "src/contentStyle.css"],
+      "js": ["lib/jquery.min.js", "lib/hl/highlight.pack.js", "src/initHighlight.js"]
+    }
+  ],
+
+  "manifest_version": 2
+}
