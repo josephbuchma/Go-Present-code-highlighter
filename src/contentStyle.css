@@ -1,4 +1,9 @@
 div.code {
-    padding: 0 !important;
+    padding: 0.5em !important;
     text-shadow: none !important;
+    background: #FDF6E3 !important;
+}
+
+div.code pre {
+  padding: 0em !important;
 }
