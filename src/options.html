@@ -1,10 +1,11 @@
-
+<!DOCTYPE html>
 <html>
   <head>
     <title>Go Present Code Higlighter Options</title>
   </head>
   <body>
-    <label>Colorscheme:</label><br/>
+    <h1>Go Present Code Higlighter Options</h1>
+    <label>Default colorscheme:</label><br/>
     <select id="colorscheme" class='option'>
       <option value="agate.css">agate</option>
       <option value="androidstudio.css">androidstudio</option>
@@ -76,7 +77,13 @@
       <option value="zenburn.css">zenburn</option>
     </select>
 
+    <br/>
+    <br/>
+
+    <div id="status"></div>
+    <button id="save">Save</button>
+
     <script src="jquery.min.js"></script>
-    <script src="popup.js"></script>
+    <script src="options.js"></script>
   </body>
 </html>

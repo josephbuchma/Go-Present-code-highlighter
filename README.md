@@ -10,12 +10,12 @@ Now you can [download .crx](https://github.com/JosephBuchma/Go-Present-code-high
 
 ## TODO
   - Add extension options page:
-    * Set default color scheme
-    * Exclude hosts list
+    [x] Set default color scheme
+    [ ] Exclude hosts list
   - Add popup with:
-    * Color scheme selector
-    * "Disable on this page" button
-  - Remove jquery dependency?
+    [x] Color scheme selector
+    [ ] "Disable on this page" button
+  - DRY out with es6
 
 ## Contribute
 

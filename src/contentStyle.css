@@ -1,9 +1,14 @@
 div.code {
-    padding: 0.5em !important;
+    padding: 0 !important;
     text-shadow: none !important;
-    background: #FDF6E3 !important;
+    border-radius: 8px;
 }
 
 div.code pre {
-  padding: 0em !important;
+  padding: 10px !important;
+}
+
+div.buttons {
+  top: -65px !important;
+  right: 10px !important;
 }
