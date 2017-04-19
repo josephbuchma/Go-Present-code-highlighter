@@ -6,15 +6,17 @@ This chrome extension uses [highlight.js](https://highlightjs.org/) to
 highlight golang code in [present](https://godoc.org/golang.org/x/tools/cmd/present) slides.
 
 ## Install
-Now you can [download .crx](https://github.com/JosephBuchma/Go-Present-code-highlighter/blob/master/crx/chrome-gopresent-syntax.crx?raw=true)
+
+[Install from
+webstore](https://chrome.google.com/webstore/detail/go-present-code-highlight/depioieabmbifhmkflcagceedklkiahb)
 
 ## TODO
   - Add extension options page:
-    [x] Set default color scheme
-    [ ] Exclude hosts list
+    - [x] Set default color scheme
+    - [ ] Exclude hosts list
   - Add popup with:
-    [x] Color scheme selector
-    [ ] "Disable on this page" button
+    - [x] Color scheme selector
+    - [ ] "Disable on this page" button
   - DRY out with es6
 
 ## Contribute
